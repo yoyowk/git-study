@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{
+    background-color: #ff0;
+    color: green;
+}
+.multi.note{
+    color:gray;
+}
+h1.multi{
+    color: purple;
+}
+.multi{
+    color: hotpink;
+}
+h1{
+    color: red;
+}
+        /* *{
+        color:blue;
+                } */
+a{
+    color:inherit; /*a태그의 webkit-link를 무시하고, 난 상속값을 적용할거야.(body)*/
+}

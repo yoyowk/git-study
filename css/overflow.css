@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+}
+.box{
+    width: 300px;
+    height: 100px;
+    margin: 50px;
+    overflow: auto;
+    background-image: linear-gradient(to right,red,green,blue,purple,yellow,orange);
+}
+.note1{
+    background-color: yellow;
+    opacity: 0.5;
+}
+.note2{
+    background-color: pink;
+    display: none;  
+}
+.message{
+    background-color: skyblue;
+}
