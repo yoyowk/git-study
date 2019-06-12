@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+}
+/*레이아웃*/
+.header, .wrapper, .footer{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    background-color: yellow;
+    height: 15vh;
+}
+.wrapper{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+.main{
+    background-color:rgba(0,255,0,0.7);
+    /* height: 50vh; */
+    width: 600px;
+}
+.aside{
+    background-color:rgba(255,0,0,0.7);
+    /* height: 20vh; */
+    width: 500px;
+    order: -1;
+    /* margin-right: auto; */
+}
+.footer{
+    background-color: orange;
+    height: 15vh;
+    clear: both;
+}
