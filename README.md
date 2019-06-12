@@ -86,7 +86,7 @@
 ### 배치 관련 속성
 - float 속성
 > flaot 속성은 left와 right 값을 사용할 수 있으며 일반적인 흐름을 벗어나서 화면위에 떠있는 상태로 만들 수 있다. left나 right 값은 부모 영역을 기준으로 배치되며 각각 라인박스 안에서 배치된다는 특징이 있다. 또한 float 된 요소의 부모는 float 된 요소의 높이를 잃어버리기 때문에 부모요소에 overflow: hidden을 지정하여 문제를 해결할 수 있다.
-- display: flex => [CSS Triks 참고자료] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- display: flex => [CSS Triks 참고자료](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 > 유연한 박스모델로 배치하고자 하는 요소의 부모 요소에 display 속성의 값으로 flex를 지정할 수 있다. 이때 flex가 지정된 요소의 자식 요소는 flex item의 역할을 담당하게 되고 flex-direction 속성에 지정된 방향으로 배치된다.
 ### 배경 관련 속성
 - background-color (배경색)
