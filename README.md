@@ -72,3 +72,27 @@
         background-color:yellow;
     }
 ```
+## 3일차
+### CSS 선택자 및 박스모델
+- 전체 선택자 (*)
+- 요소 선택자 (tag 명령)
+- class 선택자 (.class 명령)
+- id 선택 (#id 명)
+- width, height 속성 (박스의 가로 및 세로 크기)
+- 테두리 (border)
+- 여백 (padding, margin[auto 키워드를 사용할 수 있음])
+- box-sizing 속성 (content-box, border-box)
+- overflow 속성 (박스의 크기와 콘텐츠의 크기)
+### 배치 관련 속성
+- float 속성
+> flaot 속성은 left와 right 값을 사용할 수 있으며 일반적인 흐름을 벗어나서 화면위에 떠있는 상태로 만들 수 있다. left나 right 값은 부모 영역을 기준으로 배치되며 각각 라인박스 안에서 배치된다는 특징이 있다. 또한 float 된 요소의 부모는 float 된 요소의 높이를 잃어버리기 때문에 부모요소에 overflow: hidden을 지정하여 문제를 해결할 수 있다.
+- display: flex => [CSS Triks 참고자료] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+> 유연한 박스모델로 배치하고자 하는 요소의 부모 요소에 display 속성의 값으로 flex를 지정할 수 있다. 이때 flex가 지정된 요소의 자식 요소는 flex item의 역할을 담당하게 되고 flex-direction 속성에 지정된 방향으로 배치된다.
+### 배경 관련 속성
+- background-color (배경색)
+- background-image (배경 이미지)
+- background-repeat (배경 이미지 반복여부)
+- background-position (배경 이미지 위치조절)
+- backgruond-attachment (배경 이미지 고정여부)
+- background-size (배경 이미지 크기)
+- background 속성 (배경 관련 단축 속성)
