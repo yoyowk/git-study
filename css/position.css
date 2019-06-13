@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+h1{
+    background: yellow;
+}
+.shadow{
+    background: black;
+}
+h2{
+    background: pink;
+    position: relative;
+    top: -5px;
+    left: -5px;
+}
+.layer{
+    background: gray;
+    width: 500px;
+    height: 300px;
+    position: relative; /*자식요소가 위치하기전에(레이어 개념으로. position:absolute;)
+    상위요소에 어디기준으로 위치하느냐를 찾는다. 상위요소의 position:static속성은 무시한다.(기준X) 
+    찾다가 없으면 body기준으로 위치한다. 내가 어떤 레이어 안에 위치하기를 원하면 
+    기준이 되는 레이어에 position:relative값을 주어야한다.*/
+}
+h3{
+    background: lime;   
+    position: absolute; /*고정된 레이아웃, 특정한 위치에 배치하고 싶을 때*/
+    bottom: 100px;
+    right: 50px;
+    margin: 0;
+}
+p{
+    background: orange;
+}
+span{
+    background: skyblue;
+    position: fixed; /*absolute와 같이 영역차지하지 않고 붕 떠있음. fixed는 바디기준이 아니라 뷰포트기준!!!!*/
+    top: 50px;
+    right: 50px;
+}

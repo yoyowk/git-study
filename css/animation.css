@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@keyframes bg{
+    0%{
+        background-color:red;
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+        transform: translate(0,0) scale(1);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(500px, 200px) scale(1.5) rotate(5turn);
+    }
+}
+
+@keyframes typing{
+    0%{
+        width: 0em;
+    }
+    100%{
+        width: 17em;
+    }
+}
+
+body{
+    animation-name: bg;
+    animation-duration: 3000ms;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.circle{
+    opacity: 0;
+    background:pink;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    animation-name: fade;
+    animation-duration: 2000ms;
+    animation-delay: 3000ms;
+    animation-fill-mode: forwards;
+}
+
+.welcom{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 0em;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s 8s forwards; /*하단요약*/
+    /* 
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 8s; */
+}
+
+.box{
+    font-size: 36px;
+    font-style: italic;
+    color: blue;
+    font-weight: 700;
+    background-color: orange;
+    width: 10em;
+    text-align: center;
+    transition:all 1s;
+    /* transition-property: color, backgruond-color;
+    transition-duration: 1s;
+    transition-delay: 0s, 1s; */
+}
+.box:hover{
+    color:gray;
+    background-color:pink;
+}
