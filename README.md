@@ -105,15 +105,15 @@
 - sticky (relative + fixed 효과 - IE11 지원하지 않음)
 ### 애니메이션 관련 속성
 - animation
- + animation-name (필수속성: 필수로 있어야 동작)
- + animation-duration (필수속성)
- + animation-fill-mode (시작 이후로 돌아갈 것인지, 멈출 것인지)
- + animation-delay
+  + animation-name (필수속성: 필수로 있어야 동작)
+  + animation-duration (필수속성)
+  + animation-fill-mode (시작 이후로 돌아갈 것인지, 멈출 것인지)
+  + animation-delay
 - transform
- + translate() (이동하는 기능)
- + scale()
- + rotate()
+  + translate() (이동하는 기능)
+  + scale()
+  + rotate()
 - transition
- + transition-property
- + transition-duration
- + transition-delay
+  + transition-property
+  + transition-duration
+  + transition-delay
